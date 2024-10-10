@@ -1,0 +1,228 @@
+/* Header */
+
+header {
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+    background-color: #424242;
+    background-size: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Barra de navegação */
+
+nav {
+    text-align: center;
+    background-color: #A4A4A4;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 20px;
+}
+a:hover {
+    font-weight: bold;
+}
+
+/* Body */
+
+body {
+    font-family: Arial;  
+    background-size: 100%;
+}
+
+/* Tabelas gerais */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Vídeos gerias */
+
+video {
+    width: 500px;
+    height: 1000px;
+}
+
+/* Parágrafos gerais */
+
+p {
+    text-indent: 20px;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url('/imagens/hero.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Seção (Origem) */
+
+.origem {
+    background-color: #BDBDBD;
+}
+
+/* Seção (Eventos) */
+
+.eventos {
+    background-color: #A4A4A4;
+}
+
+/* Seção (Biomas) */
+
+.biomas {
+    background-color: #BDBDBD;
+}
+
+/* Seção (Bosses) */
+
+.bosses {
+    background-color: #A4A4A4;
+}
+
+.table-bosses {
+    background-color: #dddddd;
+}
+
+/* Seção (Classes) */
+
+.classes {
+    background-color: #BDBDBD;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+    flex: 1;
+    padding: 20px;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto h2 {
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Seção (Hard-Mode) */
+
+.hard {
+    background-color: #A4A4A4;
+}
+
+/*Seção (Lore) */
+
+.lore {
+    background-color: #BDBDBD;
+}
+
+/* Seção (Minérios) */
+
+.minerios {
+    background-color: #A4A4A4;
+}
+
+.img-minerios {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+.nav-btn:focus {
+    outline: none;
+}
+
+/* Seção (Npc's) */
+
+.npcs {
+    background-color: #BDBDBD;
+}
+
+.img-npc {
+    width: 150px;
+    height: 200px;
+}
+
+/* Seção (Mods) */
+
+.mods {
+    background-color: #A4A4A4;
+}
+
+/* teste */
